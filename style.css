@@ -1,19 +1,30 @@
-#headert {
-    color: blue;
+body {
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title {
+    color: lightslategray;
+    font-family: monospace;
 }
 
 #mycanvas {
-    background-color: rgb(255, 255, 255);
+    background-color: honeydew;
+    border: black dashed 7px;
+    margin-bottom: 30px;
 }
 
-body {
-    background-color: black;
-}
-
-#clear {
+#iut {
     background-color: red;
-    color: white;
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
+    color: black;
+    font-family: fantasy;
+}
+
+#colorv {
+    font-family: serif;
+}
+
+#linev {
+    font-family: serif;
 }
